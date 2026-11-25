@@ -1,0 +1,64 @@
+﻿# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env*
+!.env.example
+
+# Uploaded files and local data
+uploads/
+*.sqlite
+*.sqlite3
+*.db
+
+# Local experiments and backups
+experiments/
+rename-backup/
+CareerPilotAI-Backup/
+
+# Node dependencies and logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+*.out
+*.err
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous temporary files
+*.local
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Local backup copies
+*.backup*
